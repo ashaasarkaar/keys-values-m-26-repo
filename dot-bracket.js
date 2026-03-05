@@ -12,6 +12,8 @@ console.log(employee.position) // ai vabe . diye object ar value access kora k d
 
 //Bracket Notation []
 console.log(employee['name']);
-console.log(employee['home-address'])
-console.log(employee[1])
+console.log(employee['home-address']);
+console.log(employee[1]);
+const key = 'position';
+console.log(employee[key]);  // bracket notation ar moddhe akta variable o dite pari, sei tar moddhe key ar value store kore // object a loop chlanor lhettre lagbe ai ta
 
